@@ -41,3 +41,5 @@ __pycache__/
 
 ### CORBA ###
 *.ior
+### orbd (CORBA) ###
+orb.db/
