@@ -1,0 +1,15 @@
+module LouageLive {
+
+    struct Depart {
+        string louageId;
+        string trajet;
+        long   placesRestantes;
+        string etat;
+    };
+
+    interface Panneau {
+        void   afficherDepart(in Depart d);
+        void   afficherMessage(in string texte);
+        string ping();
+    };
+};
